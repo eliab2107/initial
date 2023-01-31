@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+:root{
+    --black:  rgb(43, 41, 41);
+    --black_contrast:   rgb(36, 34, 34);
+    --simple_blu:  rgb(103, 255, 255);
+    --cor_font_texto: aliceblue;
+    --font-text: 'Teko', sans-serif;  
+}
+
+*{
+    margin: 0;
+    color: var(--cor_font_texto)
+}
+
+body{
+    background-color: var(--black);
+}
+
+header{
+    background-color: var(--black_contrast);
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 100px;
+    color:  var(--simple_blu);
+    box-shadow: inset 0 0 1em var(--black), 0 0 0.2em var(--simple_blu);
+    border-radius: 5px 5px 0px 0px ;
+    margin-top: 5px;
+}
+
+nav{
+    padding: 55px 0px 0px 0px;
+    max-width: 710px;
+    min-width: 300px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+nav > a{
+    padding: 2px 7px 2px 7px;
+    text-decoration: none;
+    margin: auto;
+    color:  var(--simple_blu);
+}
+
+nav > a:hover{
+    background-color: var(--simple_blu);
+    color: var(--black);
+    border-radius: 3px 3px 0px 0px;
+}
+
+main{
+    margin: auto;
+    min-height: auto;
+    background-color: var(--black);
+    max-width: 800px;
+    min-width: 300px;
+    box-shadow: inset 0 0 1em var(--black), 0 0 0.2em var(--simple_blu);
+}
+
+section{
+    display: inline-flex;
+    padding: 15px 15px;
+   
+    
+}
+
+section.img-left{
+    flex-direction: row-reverse;
+}
+
+
+section > p{
+    margin:auto;
+    margin-top: 10%;
+    max-width: 80%;
+    max-height: auto;
+    color: var(--cor_font_texto);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+section > img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+@media(max-width:700px){
+section{
+    display: inline-block;
+}
+section > p, img{
+    padding: 10px 0px;
+    margin: 5%;
+    align-items: center;
+    margin: auto;
+}
+section > img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+}
+footer > p{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--black_contrast);
+    color: white;
+    text-align: center;
+}
+
+footer > p > a, strong{
+    color: var(--simple_blu);
+}

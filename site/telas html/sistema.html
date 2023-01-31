@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../telas css/sistema_style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="main.html">Início</a>
+            <a href="perfil.html" target="_parent">perfil</a>
+            <a href="Jogodavelha.html">Jogo da velha</a>
+            <a href="sistema.html">Sistema</a>
+           
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <div id="label">
+                <label for="E-mail">E-mail:</label>
+                <input type="email" name="E-mail" id="E-mail" placeholder="  Digite seu email">
+                <label for="Senha">Senha:</label>
+                <input type="password" name="Senha"id="Senha" placeholder="  Digite sua senha"> 
+            </div>
+            <div id="escondida" class="escondida">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF">
+
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade" placeholder="Idade">
+                
+                <label for="sexo">Sexo:</label>
+                <input type="text" name="sexo" id="sexo" placeholder="Sexo">
+            </div>
+            <div id="button">
+                <button onclick="cadastrar()">Cadastrar</button>
+                <button>Login</button>
+            </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>
+           Criado por <strong>Eliab Bernardino</strong> para apresentação à Direct systems. 
+           <a href="www.github.com/eliab2107" target="_blank">GitHub</a>
+       </p>    
+    </footer>
+    <script src="../scripts/sistema.js"></script>
+</body>
+</html>
