@@ -4,4 +4,4 @@
 
 ### Este projeto resume-se a um site e uma aplicação P2P em python
 
-</par>O site tem a intenção de expor meu conhecimento principalmente em HTML, CSS e lógica enquanto que o chat P2P conhecimentos em python e redes.
+O site tem a intenção de expor meu conhecimento principalmente em HTML, CSS e lógica enquanto que o chat P2P conhecimentos em python e redes.
